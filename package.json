@@ -1,0 +1,16 @@
+{
+  "name": "my-app",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "4.4.13"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "typescript": "5.4.3",
+    "wrangler": "^3.57.2"
+  }
+}
