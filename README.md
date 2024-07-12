@@ -1,12 +1,18 @@
 
+With hono 4.4.6
+
 ```sh
-# with hono 4.4.6
+
 ➜  my-app npm run tsc
 
 > tsc
 > tsc --noEmit
+```
 
-# Swap to latst hono in package json
+
+Swap to latest hono in package json
+
+```sh
 ➜  my-app npm i
 
 changed 1 package, and audited 85 packages in 986ms
